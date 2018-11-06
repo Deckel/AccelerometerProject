@@ -9,11 +9,11 @@ print(timestr)
 F = open("data"+timestr+".txt","w")
 
 #Initial waiting time 60s
-time.sleep(1)
+time.sleep(60)
 print("Starting Recording")
 
 #Record for 10 mins at 10hz 
-while timeStep < 6:
+while timeStep < 600:
 	time.sleep(0.1)
 	#Record Pitch
 	pitch = 12
